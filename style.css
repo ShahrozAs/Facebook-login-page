@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:verdana;
+}
+body{
+    background-color: #E6E9F2;
+}
+#header{
+    background-color: #3B5998;
+    height: 100px;
+
+}
+.fbtext{
+    color: white;
+    position: absolute;
+    top: 1rem;
+    left: 10%;
+}
+
+form{
+    position: absolute;
+    top: 1rem;
+    right: 10%;
+}
+.form{
+    display: flex;
+}
+.form-1{
+    display: flex;
+    flex-direction: column;
+
+}
+.container input{
+    border-radius: 7px;
+    border: 1px solid #C0C9DA;
+    font-size: 20px;
+}
+label{
+    margin: 0px 10px;
+    color: white;
+
+}
+form input{
+    padding: 5px 5px;
+    margin: 3px 10px;
+}
+form a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px;
+}
+.btn{
+    padding: 5px 10px;
+    margin-top: 20px;
+    height: 30px;
+    background-color: #4267B2;
+    color: white;
+}
+.container{
+    display:grid;
+  grid-template-areas: 'left right';
+   
+}
+.left {
+    margin: 5rem 20%;
+    grid-area: left;
+}
+
+.createtext{
+    font-size: 50px;
+}
+.itilic{
+    font-weight: 400;
+}
+.right{
+    margin-top: 3rem ;
+    margin-left: 15%;
+    grid-area: right;
+}
+.right h1{
+   margin: 30px 0px;
+}
+.right h2{
+   margin: 30px 0px 10px 0px;
+   color: #9E949C;
+}
+
+.right input[type="text"]{
+    width: 75%;
+   padding: 15px 10px;
+margin: 5px 0px;
+    
+}
+
+
+.inlinefield{
+    display: inline-block;
+ width: 34.5% !important;
+}
+select{
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.right p{
+    margin-top: 40px;
+    color: #8295AB;
+}
+
+.sign-up{
+    padding: 15px 15px;
+    width: 18rem;
+    margin-top: 40px;
+    background-color: #63A651;
+    color: white;
+    font-weight: 700;
+    font-size: 23px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
